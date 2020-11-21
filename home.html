@@ -1,14 +1,107 @@
 <!doctype html>
 
-<html>
+<html lang="en">
   <head>
-    <title>INSERT TITLE HERE!</title>
-    <link rel="stylesheet" href="index.css">
-    <!-- TODO: add additional links here! e.g. fonts, icons, more stylesheets, etc. -->
-    <meta content="width=device-width, initial-scale=1" name="viewport" />
+	<meta charset="utf-8">
+	<title>Development Handin</title>
+	<link rel="stylesheet" href="bootstrap.css">
+	<link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Piazzolla:wght@300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="index.css">
+	<meta content="width=device-width, initial-scale=1" name="viewport"/>
   </head>
 
   <body>
-    <!-- TODO: put your HTML code here! -->
+	
+	
+	<!-- Nav Bar -->
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<div class="container-fluid">
+		  <div class="collapse navbar-collapse">
+			<ul class="navbar-nav mr-auto mb-lg-0">
+			  <li class="nav-item"> <a class="nav-link" href="#Goals">Goals</a></li>
+			  <li class="nav-item"> <a class="nav-link" href="#Usability">Usability</a></li>
+        <li class="nav-item"> <a class="nav-link" href="#Site">Site</a></li>
+			</ul>
+		  </div>
+		</div>
+	</nav>
+
+
+	<!-- Landing Area Text + Underlayed Image -->
+	<div id="Home" class="d-flex flex-column trophy justify-content-center align-items-center text-center">
+			<h1> Development</h1>
+			<h3> An Introduction to React</h3>
+	</div>
+
+
+	<!-- Featured Product Cards: Grid + Flex -->
+	<div id="Goals" class="overview">
+		<h4 class="text-center">Goals</h4>
+		<div class="container-fluid text-center">
+            <hr class="mb-4">
+            <p>
+                I began this assignment by thinking about possible sites that mesh well with sorting,
+                filtering, and adding items to an aggregator. A grocery store seemed like a logical choice,
+                with each grocery item belonging to a food group, being of a certain size, and having
+                a corresponding price.
+            </p><br>
+
+            <p>
+              My website's goal is to create the streamlined experience consumers expect when they
+              shop for products online. My first step in creating this website was to think about
+              its layout and usability principles.
+            </p><br>
+		</div>
+	</div>
+
+
+
+	<div id="Usability" class="usability">
+		<h4 class=text-center>Usability Principles</h4>
+		<div class="container-fluid">
+            <hr class="mb-4">
+            <h5 class="text-center">Key Thoughts:</h5>
+            <ul class="text-center" style="list-style-position: inside;">
+                <li>
+                    Clearly display sorting and filtering options at top of page
+                </li>
+                <li>
+                    Cohesively display the product name, descriptive attributes, along with its picture
+                </li>
+                <li>
+                    Utilize dual column approach to show both food catalog and current cart simultaneously
+                </li>
+                <li>
+                    Products as they appear in the cart should be in same format as in the catalog
+                </li>
+                <li>
+                    Buttons should be clear and intuitive to use
+                </li>
+            </ul>
+		</div>
+  </div>
+    
+	<div id="Site" class="low_fid">
+		<h4 class=text-center>Site</h4>
+		<div class="container-fluid">
+            <hr class="mb-4">
+
+            <p class="text-center">
+              After thinking about the proper design for the site, I set out to deploy it!
+            </p>
+
+            <p class="text-center">
+                Here is a <a href="https://github.com/joshbaum/development_git">link</a> to my React repo on github.
+            </p>
+
+            <p class="text-center">
+                Here is a <a href="???">link</a> to my deployed site.
+          </p>
+
+		</div>
+  </div>
+      
   </body>
 </html>
